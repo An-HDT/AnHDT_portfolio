@@ -70,14 +70,14 @@ p {
 .mb-1-6, .my-1-6 {
     margin-bottom: 1.6rem;
 }
-.imgAvatar{
-   width: 70%;
-   height: 70%;
-}
 .info{
     width: 28%;
     float: left;
 }
 .content{
     float: right;
+}
+.imgAvatar{
+   width: 70%;
+   height: 70%;
 }
