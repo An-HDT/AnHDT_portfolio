@@ -70,14 +70,53 @@ p {
 .mb-1-6, .my-1-6 {
     margin-bottom: 1.6rem;
 }
-.info{
-    width: 28%;
-    float: left;
-}
-.content{
-    float: right;
-}
 .imgAvatar{
    width: 70%;
    height: 70%;
+}
+.info{
+    width: 28%;
+    float: left;
+    left: 110px;
+}
+.content{
+    position: relative;
+    width: 65%;
+    float: right;
+    right: -200px;
+}
+@media only screen and (max-width: 600px) {
+    .info, .content {
+        width: initial;
+        float: initial;
+        position: initial;
+        right: initial;
+        left: initial;
+    }
+    .position-fixed{
+        position: initial !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .info, .content {
+        width: initial;
+        float: initial;
+        position: initial;
+        right: initial;
+        left: initial;
+    }
+    .position-fixed{
+        position: initial !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
 }
