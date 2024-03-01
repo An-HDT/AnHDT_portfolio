@@ -85,6 +85,12 @@ p {
     float: right;
     right: -200px;
 }
+.custom-link:hover {
+    color: red; 
+}
+.custom-buttom:hover {
+    background: red; 
+}
 @media only screen and (max-width: 600px) {
     .info, .content {
         width: initial;
