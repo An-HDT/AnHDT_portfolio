@@ -1,6 +1,6 @@
 Link demo: https://an-hdt.github.io/AnHDT_portfolio/
 <div style="display: flex; justify-content: center;">
-    <table border="1">
+    <table border="1" style="margin: auto;">
         <thead>
             <tr>
                 <th style="text-align: center;">Order</th>
